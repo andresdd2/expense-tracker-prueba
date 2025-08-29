@@ -20,10 +20,10 @@ class AppTheme {
         onBackground: cText,
         surface: cCard,
         onSurface: cText,
-        error: cAccent, // no hay rojo → reusa acento
+        error: cAccent, 
         onError: cText,
         surfaceTint: Colors.transparent,
-        tertiary: cCard, // opcional
+        tertiary: cCard, 
         onTertiary: cText,
         primaryContainer: cCard,
         onPrimaryContainer: cText,

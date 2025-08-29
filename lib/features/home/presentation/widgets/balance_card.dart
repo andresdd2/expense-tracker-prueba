@@ -8,7 +8,7 @@ class BalanceCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        color: AppTheme.cAccent, // sólido
+        color: AppTheme.cAccent,
         borderRadius: BorderRadius.circular(24),
       ),
       padding: const EdgeInsets.all(24),

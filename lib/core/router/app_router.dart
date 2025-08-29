@@ -17,7 +17,6 @@ class AppRouter {
         builder: (context, state, navShell) =>
             AppShell(navigationShell: navShell),
         branches: [
-          // 0: Home
           StatefulShellBranch(
             routes: [
               GoRoute(
@@ -27,7 +26,6 @@ class AppRouter {
               ),
             ],
           ),
-          // 1: Stats
           StatefulShellBranch(
             routes: [
               GoRoute(
@@ -37,7 +35,6 @@ class AppRouter {
               ),
             ],
           ),
-          // 2: New Transaction ("+")
           StatefulShellBranch(
             routes: [
               GoRoute(
@@ -47,7 +44,6 @@ class AppRouter {
               ),
             ],
           ),
-          // 3: Settings
           StatefulShellBranch(
             routes: [
               GoRoute(
